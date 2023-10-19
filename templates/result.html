@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+
+<div class="w3-teal-header">
+    <h1>TEXT SUMMARIZATION RESULT</h1>
+</div>
+<br><br><br>
+<div class="w3-container">
+    <div class="w3-card w3-half">
+        <h5>Original Text</h5>
+        <p>{{ org_text }}</p>
+    </div>
+
+    <div class="w3-card w3-half">
+        <h5>Summarized Text</h5>
+        <p>{{ text_summary }}</p>
+    </div>
+</div>
+
+<div class="w3-back-button">
+    <button class="styled-button" onclick="window.location.href = 'http://127.0.0.1:5000';">Back</button>
+</div>
+<br><br>
+
+<div class="w3-footer">
+    <div class="w3-about-app"> 
+    </div>
+</div>
+
+</body>
+</html>

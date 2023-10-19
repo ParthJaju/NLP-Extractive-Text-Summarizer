@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); /* New font family */
+
+html, body {
+    font-family: 'PT Sans', sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    overflow-x: hidden; 
+}
+
+.w3-teal-header {
+    background: linear-gradient(to bottom, #007a6e, #009688);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.w3-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    min-height: 50%;
+    padding-bottom: 50px; 
+}
+
+.w3-card {
+    width: 40%; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .w3-container {
+        flex-direction: column;
+        padding-bottom: 0; 
+    }
+
+    .w3-card {
+        width: 100%;
+    }
+}
+
+.styled-button {
+    background-color: #009688; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.styled-button:hover {
+    background-color: #007a6e;
+}
+
+.w3-footer {
+    background: linear-gradient(to bottom, #007a6e, #009688);
+    padding: 24px;
+    color: white;
+    text-align: center;
+    position: relative; 
+    width: 100%;
+    border-top: 1px solid #fff;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); 
+
+html, body {
+    font-family: 'PT Sans', sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+
+.Heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    align-items: center;
+    background: linear-gradient(to bottom, #009688, #007a6e); 
+    color: white;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.nol {
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #009688, #007a6e);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.resetbut, .submitbut {
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #007a6e, #009688);
+    transition: background 0.3s; 
+}
+
+.resetbut:hover, .submitbut:hover {
+    background: linear-gradient(to bottom, #009688, #007a6e); 
+}
+
